@@ -117,3 +117,114 @@ main p {
     text-align: center;
     font-size: 1.2rem;
 }
+
+.projetos {
+    padding: 6rem 2rem;
+}
+
+.projetos-caixa {
+    display: grid; /* organizar os itens como grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* faça colunas iguais */ /* auto-fit é para que caibam na tela */ /* tamanho delas-> min 300px; max a tela toda */ /* 1fr é uma fração, é tudo */
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.secret-projetos {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.projetos-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden; /* se o item ficar grande demais ele vai esconder a sobra */
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.projetos-card:hover {
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.projetos-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.info-projetos {
+    margin-bottom: 5px;
+}
+
+.projetos-imagem {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; /* como que vai se encaixar onde ele ta */
+}
+
+.projetos-textos {
+    padding: 1.5em;
+}
+
+.paragrafo-projetos {
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+}
+
+.contato {
+    padding: 6rem 2rem;
+}
+
+.contato-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.formulario-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid var(--vidro);
+}
+
+.grupo-form {
+    margin-bottom: 1.5rem;
+}
+
+.campo-form {
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--vidro);
+    border-radius: 8px;
+    color: var(--claro);
+    outline: none;
+}
+
+.campo-form:focus { /* qnd der foco nele */
+    border-color: var(--secundaria);
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
+}
+
+.botao-form {
+    color: var(--claro);
+    font-weight: bold;
+    background-image: linear-gradient(45deg, var(--primaria), var(--secundaria));
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.5 ease;
+}
+
+/* PAREI NO 1H03MIN */
