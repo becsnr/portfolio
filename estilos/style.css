@@ -78,6 +78,7 @@ body {
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
     border-radius: 50%;
     border: 2px solid var(--claro);
+    animation: flutuar 5s ease-in-out infinite;
 }
 
 main h1 {
@@ -228,5 +229,27 @@ main p {
 }
 
 .botao-form:hover {
-    
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+}
+
+.particulas { /* as "luzes" ao redor do site */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%), radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%) var(--maisEscuro);
+}
+
+@keyframes flutuar { /* animação da foto */
+    0%, 100% { /* momento 0 e momento 100 do seu movimento */
+        transform: translateY(0); /* vão ficar zerado, continuar no mesmo lugar */
+    }
+
+    50% { /* no meio do caminho */
+        transform: translateY(-20px);
+    }
 }
