@@ -75,16 +75,35 @@
     <section id="contato" class="contato">
         <h2 class="contato-titulo">Entre em Contato</h2>
 
-        <form class="formulario-contato" id="formulario">
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="4" id="mensagem"></textarea>
             </div>
 
             <button type="submit" class="botao-form">Enviar Whatsapp</button>
         </form>
     </section>
+
+    <script> /* tudo isso vai acontecer qnd clicar no botão */
+        function enviarWhats(event) {
+            event.preventDefault() /* vai evitar que a tela recarregue */
+
+            const nome = document.getElementById('nome').value; /* pega o nome digitado */
+            const mensagem = document.getElementById('mensagem').value;/* pega a mensagem digitada */
+            const telefone = '5533998118437'; /* numero para onde vai ser enviado */
+
+            const texto = `Olá! Me chamo ${nome}, ${mensagem}`; /* formato que quero que seja a mensagem */
+            const msgFormatada = encodeURIComponent(texto); /* formata a mensagem pra inserir na url */
+
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+
+            /*console.log(url) /* se der erro use isso e vai no console pra ver o que rolou */
+
+            window.open(url, '_blank'); /* abrir a url no navegador */
+        }
+    </script>
 </body>
 </html>
