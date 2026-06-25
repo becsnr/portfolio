@@ -2,8 +2,78 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+
+    position: relative;
 }
 
-#setup img {
-    height: 200px;
+/* HOME TEXTO */
+.home-texto {
+    width: 500px;
+}
+
+.home-texto p {
+    font-size: 1.8rem;
+}
+
+.home-texto h1 {
+    font-size: 3.2rem;
+}
+
+.home-texto .subtitulo {
+    font-size: 1.2rem;
+    margin: 20px 0 30px 0;
+}
+
+.home-botoes .btn {
+    border: 2px solid #b8a6e8;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    font-size: 1.2rem;
+}
+
+.home-botoes .btn:first-child {
+    background-color: #b8a6e8;
+    color: #f4f1fb;
+}
+
+/* IMAGEM SETUP */
+.home-setup {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolha {
+    position: absolute;
+
+    width: 380px;
+    height: 320px;
+
+    background-color: #e8e1f7;
+
+    border-radius: 61% 39% 68% 32% / 41% 51% 49% 59%;
+
+    filter: blur(2px);
+
+    opacity: .6;
+
+    z-index: 1;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.home-setup img {
+    position: relative;
+    z-index: 2;
+    height: 350px;
+
+    filter: drop-shadow(0 10px 20px #00000033);
 }
