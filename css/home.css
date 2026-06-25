@@ -1,0 +1,9 @@
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#setup img {
+    height: 200px;
+}
