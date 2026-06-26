@@ -55,7 +55,16 @@
 }
 
 .info-card a {
-    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 1.1rem;
+    color: #b8a6e8;
+}
+
+.material-symbols-outlined {
+    font-size: 5px;
 }
 
 .texto-card {
