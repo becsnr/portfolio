@@ -1,0 +1,28 @@
+#sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TEXTO */
+.sobre-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 500px;
+}
+
+.sobre-texto h1 {
+    font-size: 3rem;
+}
+
+.sobre-texto p {
+    font-size: 1.3rem;
+}
+
+/* ICON */
+.sobre-icon img {
+    height: 350px;
+}
