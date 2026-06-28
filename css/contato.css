@@ -1,0 +1,129 @@
+#contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contato-texto {
+    display: flex; 
+    flex-direction: column;
+    gap: 50px;
+
+    width: 400px;
+}
+
+.contato-titulo h1 {
+    font-size: 3.5rem;
+}
+
+.contato-titulo p {
+    font-size: 1.4rem;
+
+    margin-top: 10px;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-item span, .contato-item i {
+    font-size: 2.6rem;
+    color: #530587;
+
+    transition: .3s ease;
+
+    cursor: pointer;
+}
+
+.contato-item a {
+    font-size: 1.2rem;
+
+    cursor: pointer;
+}
+
+/* FORM */
+.contato-form  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.contato-form div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    width: 500px;
+}
+
+.contato-form input {
+    width: 100%;
+    height: 40px;
+}
+
+.contato-form input, .contato-form textarea {
+    padding: 15px;
+
+    border: 1px solid #9b6cffc5;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px #0000001a;
+
+    outline: none;
+    transition: .3s ease;
+}
+
+.contato-form input:focus, .contato-form textarea:focus {
+    border-color: #9b6cffc5;
+
+    box-shadow:
+        0 0 0 3px #9b6cff2e,
+        0 0 12px #9b6cff40;
+}
+
+.contato-form textarea {
+    height: 150px;
+}
+
+.contato-form button {
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-image: linear-gradient(to right, #b8a6e8, #a89cc6);
+    box-shadow: 0 1px 5px #00000029;
+
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #00000052;
+
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.contato-form  button:hover {
+    transform: translateY(-4px);
+
+    background-image: linear-gradient(to right, #a890e4, #9687bc);
+    box-shadow: 0 10px 20px #842fc940;
+}
+
+.contato-form  button:active {
+    transform: translateY(-1px);
+}
