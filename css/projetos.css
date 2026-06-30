@@ -1,6 +1,11 @@
+#projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #projetos h1 {
     font-size: 3rem;
-    font-weight: normal;
 }
 
 /* CARDS */
@@ -19,7 +24,6 @@
 .card {
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
 
     width: 340px;
     height: 400px;

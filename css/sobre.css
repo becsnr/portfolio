@@ -24,12 +24,9 @@
     font-size: 1.3rem;
 }
 
-/* ICON */
-.sobre-icon {
+/* IMAGEM SETUP */
+.sobre-setup {
     position: relative;
-
-    width: 500px;
-    height: 450px;
 
     display: flex;
     justify-content: center;
@@ -39,113 +36,29 @@
 .bolha-sobre {
     position: absolute;
 
-    width: 450px;
-    height: 400px;
+    width: 380px;
+    height: 320px;
 
-    background-color: #b8a6e8;
+    background-color: #e8e1f7;
 
     border-radius: 61% 39% 68% 32% / 41% 51% 49% 59%;
 
-    /* filter: blur(1px); */
-    opacity: .9;
+    filter: blur(2px);
+
+    opacity: .6;
 
     z-index: 1;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
-.sobre-icon img {
+.sobre-setup img {
     position: relative;
     z-index: 2;
+    height: 350px;
 
-    height: 400px;
-}
-
-/* SIMBOLOS */
-.tech {
-    position: absolute;
-
-    width: 50px;
-    height: 55px;
-
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px #00000014;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    z-index: 5;
-}
-
-.tech i, .tech span {
-    font-size: 25px;
-    color: #842fc9;
-}
-
-.code {
-    top: 55px;
-    left: 60px;
-
-    animation: float1 4s ease-in-out infinite;
-}
-
-.globe {
-    top: 80px;
-    right: 35px;
-
-    animation: float2 5s ease-in-out infinite;
-}
-
-.braces {
-    bottom: 15px;
-    left: 45px;
-
-    animation: float3 4.5s ease-in-out infinite;
-}
-
-.browser {
-    bottom: 40px;
-    right: 25px;
-
-    animation: float4 5.5s ease-in-out infinite;
-}
-
-@keyframes float1 {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-12px);
-    }
-}
-
-@keyframes float2 {
-    0%,100%{
-        transform:translateY(0);
-    }
-
-    50%{
-        transform:translateY(-18px);
-    }
-}
-
-@keyframes float3{
-    0%,100%{
-        transform:translateY(0);
-    }
-
-    50%{
-        transform:translateY(-10px);
-    }
-}
-
-@keyframes float4{
-    0%,100%{
-        transform:translateY(0);
-    }
-
-    50%{
-        transform:translateY(-15px);
-    }
+    filter: drop-shadow(0 10px 20px #00000033);
 }
