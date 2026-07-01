@@ -239,7 +239,7 @@
                 <div class="contato-titulo">
                     <h1>vamos conversar?</h1>
 
-                    <p>estou disponível para novos projetos e oportunidades.</p>
+                    <p>Estou disponível para novos projetos e oportunidades.</p>
                 </div>
 
                 <div class="contato-info">
@@ -259,16 +259,17 @@
                 </div>
             </div>
 
-            <div>
+            <div class="form-container">
                 <form method="post" class="contato-form">
                     
                         <div>
-                            <input type="text" placeholder="Seu nome">
-                            <input type="email" placeholder="Seu e-mail">
+                            <input type="text" name="nome" placeholder="Seu nome" required>
+
+                            <input type="email" name="email" placeholder="Seu e-mail" required>
                         </div>
                     
 
-                    <textarea placeholder="Sua mensagem"></textarea>
+                    <textarea name="mensagem" placeholder="Mensagem" required></textarea>
 
                     <button type="submit">Enviar mensagem</button>
                 </form>
