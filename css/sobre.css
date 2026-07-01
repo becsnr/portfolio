@@ -13,7 +13,7 @@
     flex-direction: column;
     gap: 20px;
 
-    width: 450px;
+    width: 370px;
 }
 
 .sobre-texto h1 {
@@ -21,7 +21,12 @@
 }
 
 .sobre-texto p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    color: #5f5873;
+
+    text-align: justify;
+
+    line-height: 1.8rem;
 }
 
 /* CARDS */
@@ -74,6 +79,8 @@
 .sobre-cards p {
     font-size: .9rem;
     color: #5f5873;
+
+    line-height: normal;
 }
 
 /* IMAGEM SETUP */
