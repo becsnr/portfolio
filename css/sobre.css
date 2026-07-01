@@ -24,6 +24,58 @@
     font-size: 1.3rem;
 }
 
+/* CARDS */
+.sobre-container {
+    display: flex;
+    gap: 15px;
+
+    margin-top: 10px;
+}
+
+.sobre-cards {
+    width: 180px;
+    height: 100px;
+
+    padding: 10px;
+
+    background-color: #e8e1f758;
+    border: 1px solid #5305877b;
+    border-radius: 10px;
+
+    transition: .3s ease;
+
+    cursor: pointer;
+}
+
+.sobre-cards:hover {
+    transform: translateY(-5px);
+
+    border-color: #530587;
+
+    box-shadow: 0 10px 20px #842fc925;
+}
+
+.sobre-cards h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+}
+
+.sobre-cards i {
+    color: #982ddf;
+}
+
+.sobre-cards p {
+    font-size: .9rem;
+    color: #5f5873;
+}
+
 /* IMAGEM SETUP */
 .sobre-setup {
     position: relative;
