@@ -13,7 +13,7 @@
     flex-direction: column;
     gap: 20px;
 
-    width: 500px;
+    width: 450px;
 }
 
 .sobre-texto h1 {
@@ -110,7 +110,7 @@
 .sobre-setup img {
     position: relative;
     z-index: 2;
-    height: 350px;
+    height: 360px;
 
     filter: drop-shadow(0 10px 20px #00000033);
 }
