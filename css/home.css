@@ -112,7 +112,7 @@
     gap: 20px;
 }
 
-.home-item a {
+.home-item span {
     font-size: 1.7rem;
     color: #530587;
 
@@ -121,7 +121,7 @@
     cursor: pointer;
 }
 
-.home-item i:hover {
+.home-item span:hover {
     transform: translateY(-2px);
 }
 
@@ -178,7 +178,7 @@
     z-index: 5;
 }
 
-.tech i, .tech span {
+.tech span {
     font-size: 25px;
     color: #842fc9;
 }

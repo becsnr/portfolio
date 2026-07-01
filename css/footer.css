@@ -46,7 +46,7 @@ footer > *:not(.wave) {
     height: 50px;
 }
 
-.footer-item i, .footer-item span {
+.footer-item span {
     font-size: 2.2rem;
 }
 
