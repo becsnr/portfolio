@@ -70,6 +70,16 @@
     padding: 20px;
 }
 
+.texto-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.texto-card h2 {
+    font-weight: 500;
+}
+
 /* TAGS */
 .techTags {
     display: flex;
@@ -125,23 +135,4 @@
 
 .projeto-links span {
     font-size: 1.1rem;
-}
-
-/* .info-card a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    font-size: 1.1rem;
-    color: #b8a6e8;
-}
-
-.material-symbols-outlined {
-    font-size: 5px;
-} */
-
-.texto-card {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
