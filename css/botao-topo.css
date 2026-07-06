@@ -1,0 +1,36 @@
+#subirTopo {
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #8a67d8;
+    box-shadow: 0 8px 20px #8b67d845;
+    color: white;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+
+    transition: .3s ease;
+
+    z-index: 999;
+}
+
+#subirTopo.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#subirTopo.show:hover {
+    transform: translateY(-15px) scale(1.08);
+    box-shadow: 0 10px 20px #8b67d87e;
+}
