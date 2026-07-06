@@ -159,7 +159,6 @@
 
     border-radius: 61% 39% 68% 32% / 41% 51% 49% 59%;
 
-    /* filter: blur(1px); */
     opacity: .9;
 
     z-index: 1;
@@ -260,5 +259,82 @@
 
     50%{
         transform:translateY(-15px);
+    }
+}
+
+/* MOBILE */
+@media (max-width:768px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-texto {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .home-texto h1 {
+        font-size: 3rem;
+    }
+
+    .home-texto p {
+        font-size: 1.5rem;
+    }
+
+    /* BOTÕES */
+    .home-botoes {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* SOCIAL */
+    .home-social {
+        justify-content: center;
+    }
+
+    /* ICON */
+    .home-icon {
+        position: relative;
+
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .bolha-home {
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 420px;
+        height: 400px;
+    }
+
+    .home-icon img {
+        width: 300px;
+    }
+
+    /* SIMBOLOS */
+    .tech {
+        width: 45px;
+        height: 50px;
+    }
+
+    .code {
+        left: 15px;
+    }
+
+    .globe {
+        right: 10px;
+    }
+
+    .braces {
+        left: 10px;
+    }
+
+    .browser {
+        right: 5px;
     }
 }
