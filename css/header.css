@@ -12,7 +12,7 @@ header nav {
     gap: 35px;
 
     width: 600px;
-    padding: 10px;
+    padding: 15px;
 
     background-color: #e8e1f741;
     backdrop-filter: blur(2px);
@@ -45,5 +45,5 @@ header nav a.active {
     background: linear-gradient(135deg, #8a67d8, #a98cf0);
     color: white;
 
-    box-shadow: 0 6px 10px #8a67d84d;
+    box-shadow: 0 4px 10px #8a67d84d;
 }
