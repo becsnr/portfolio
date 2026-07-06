@@ -14,6 +14,18 @@
 
 .home-texto h1 {
     font-size: 3.5rem;
+
+    animation: mudarCor 3s ease-in-out infinite alternate;
+}
+
+@keyframes mudarCor {
+    from {
+        color: #653eb8;
+    }
+
+    to {
+        color: #8a67d8;
+    }
 }
 
 .home-texto .descricao {
