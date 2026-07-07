@@ -47,3 +47,9 @@ header nav a.active {
 
     box-shadow: 0 4px 10px #8a67d84d;
 }
+
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+}
