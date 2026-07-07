@@ -306,14 +306,14 @@
 
     .bolha-home {
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); 
 
-        width: 420px;
-        height: 400px;
+        width: 400px;
+        height: 350px;
     }
 
     .home-icon img {
-        width: 300px;
+        height: 350px;
     }
 
     /* SIMBOLOS */
@@ -323,7 +323,8 @@
     }
 
     .code {
-        left: 15px;
+        left: 20px;
+        top: 70px;
     }
 
     .globe {
@@ -332,6 +333,7 @@
 
     .braces {
         left: 10px;
+        bottom: 40px;
     }
 
     .browser {
