@@ -131,3 +131,37 @@
 .contato-form  button:active {
     transform: translateY(-1px);
 }
+
+@media (max-width:768px) {
+    #contato {
+        flex-direction: column;
+    }
+
+    .contato-texto {
+        display: contents;
+    }
+
+    .contato-titulo {
+        order: 1;
+    }
+
+    .contato-info {
+        flex-direction: row;
+        order: 3;
+    }
+
+    .contato-info a {
+        display: none;
+    }
+
+    /* FORM */
+    .form-container {
+        order: 2;
+
+        margin-top: 20px;
+    }
+
+    .contato-form div {
+        width: 350px;
+    }
+}
