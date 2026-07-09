@@ -65,4 +65,8 @@ a {
     main {
         padding-top: 50px;
     }
+
+    section {
+        scroll-margin-top: 50px;
+    }
 }
