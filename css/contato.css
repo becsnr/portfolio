@@ -135,6 +135,7 @@
 @media (max-width:768px) {
     #contato {
         flex-direction: column;
+        gap: 20px;
     }
 
     .contato-texto {
@@ -145,6 +146,14 @@
         order: 1;
     }
 
+    .contato-titulo h1 {
+        font-size: 2.5rem;
+    }
+
+    .contato-titulo p {
+        font-size: 1.2rem;
+    }
+
     .contato-info {
         flex-direction: row;
         order: 3;
@@ -152,6 +161,10 @@
 
     .contato-info a {
         display: none;
+    }
+
+    .contato-item span {
+        font-size: 2rem;
     }
 
     /* FORM */
