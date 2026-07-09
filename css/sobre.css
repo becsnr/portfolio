@@ -127,6 +127,33 @@
 @media (max-width:768px) {
     #sobre {
         flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .sobre-texto h1 {
+        font-size: 2rem;
+    }
+
+    .sobre-texto p {
+        font-size: 1rem;
+    }
+
+    /* CARDS */
+    .sobre-container {
+        justify-content: center;
+    }
+
+    .sobre-cards {
+        width: 160px;
+    }
+
+    .sobre-cards h2 {
+        font-size: 1rem;
+    }
+
+    .sobre-cards p {
+        font-size: .8rem;
     }
 
     /* IMAGEM SETUP */
