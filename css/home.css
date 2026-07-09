@@ -301,19 +301,19 @@
         position: relative;
 
         width: 100%;
-        max-width: 420px;
+        /* max-width: 420px; */
     }
 
     .bolha-home {
         left: 50%;
         transform: translateX(-50%); 
 
-        width: 380px;
-        height: 350px;
+        width: 300px;
+        height: 320px;
     }
 
     .home-icon img {
-        height: 350px;
+        height: 330px;
     }
 
     /* SIMBOLOS */

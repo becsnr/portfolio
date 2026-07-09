@@ -131,21 +131,28 @@
         gap: 50px;
     }
 
+    .sobre-texto {
+        width: 100%;
+        gap: 10px;
+    }
+
     .sobre-texto h1 {
         font-size: 2rem;
     }
 
     .sobre-texto p {
         font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     /* CARDS */
     .sobre-container {
         justify-content: center;
+        gap: 5px;
     }
 
     .sobre-cards {
-        width: 160px;
+        width: 140px;
     }
 
     .sobre-cards h2 {
@@ -154,15 +161,16 @@
 
     .sobre-cards p {
         font-size: .8rem;
+        text-align: left;
     }
 
     /* IMAGEM SETUP */
     .bolha-sobre {
-        width: 340px;
-        height: 280px;
+        width: 300px;
+        height: 200px;
     }
 
     .sobre-setup img {
-        height: 280px;
+        height: 230px;
     }
 }

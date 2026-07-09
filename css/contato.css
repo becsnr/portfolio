@@ -175,6 +175,10 @@
     }
 
     .contato-form div {
-        width: 350px;
+        width: 300px;
+    }
+
+    .contato-form input {
+        height: 50px;
     }
 }
