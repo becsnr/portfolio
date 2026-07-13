@@ -1,36 +1,52 @@
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 
     position: relative;
 
     width: 100%;
-    height: 180px;
+    height: 280px;
 
-    padding: 10px;
-
-    font-size: 1.3rem;
+    background: linear-gradient(180deg, #b8a6e8, #a48ce0);
 
     overflow: hidden;
 }
 
+footer h1 {
+    font-size: 2.5rem;
+
+    background: linear-gradient(90deg, #5d37af, #6c43c7, #7b5bc9);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #ffffffd7;
+}
+
 footer p, footer a {
-    color: white;
     text-shadow: 1px 1px 2px #00000035;
+    font-weight: 300;
 
     transition: .3s;
 }
 
-footer > *:not(.wave) {
-    position: relative;
-    z-index: 1;
-}
-
 .footer-navegar {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+}
+
+.footer-navegar a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .footer-navegar a:hover, .footer-item a:hover {
@@ -41,70 +57,46 @@ footer > *:not(.wave) {
 .footer-contato {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
 
     height: 50px;
 }
 
+.footer-item {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
 .footer-item span {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    color: #5d37af;
+
+    transition: .3s ease;
 }
 
-.wave {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-
-    width: 100%;
-    height: 150%;
-
-    z-index: 0;
+.footer-item:hover span {
+    color: white;
+    transform: translateY(-6px) scale(1.08);
 }
 
-.wave path {
-    fill: #b8a6e8;
-}
-
-.desktop-wave {
-    display: block;
-}
-
-.mobile-wave {
-    display: none;
-}
-
+/* MOBILE */
 @media (max-width:768px) {
-    footer {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
     footer p {
-        order: 2;
         font-size: 1rem;
-
-        margin-top: auto;
-    }
-
-    .footer-contato {
-        display: none;
-    }
-
-    .footer-navegar {
-        order: 1;
-
-        margin-top: 50px;
     }
 
     .footer-navegar a {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
-    .desktop-wave {
-        display: none;
-    }
-
-    .mobile-wave {
-        display: block;
+    .footer-contato span {
+        font-size: 1.7rem;
     }
 }
