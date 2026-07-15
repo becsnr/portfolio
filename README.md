@@ -75,12 +75,18 @@
   </table>
 </div>
 
-<!--
-  | Tecnologia | Utilização |
-|------------|------------|
-| HTML5 | Estrutura semântica da página |
-| CSS3 | Estilização, responsividade e animações |
-| JavaScript | Interações e funcionalidades dinâmicas |
-| Font Awesome | Ícones da interface |
-| Google Fonts | Tipografia personalizada |
---!>
+---
+
+## 🤝 Contato
+
+<div align="center">
+    <a href="https://github.com/becsnr" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/GITHUB-9B7BE3?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=181717">
+    </a>
+    <a href="https://linkedin.com/in/becarios" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/LINKEDIN-9B7BE3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2">
+    </a>
+    <a href="mailto:becsnr@gmail.com?subject=Contato pelo portfólio">
+        <img src="https://img.shields.io/badge/EMAIL-9B7BE3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&color=EA4335">
+    </a>
+</div>
