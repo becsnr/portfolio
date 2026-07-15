@@ -79,7 +79,7 @@
 
 ## 🤝 Contato
 
-<div align="center">
+<div>
     <a href="https://github.com/becsnr" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/GITHUB-9B7BE3?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=181717">
     </a>
