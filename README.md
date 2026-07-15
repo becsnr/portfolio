@@ -1,0 +1,86 @@
+# 💜 Beca Portfolio
+
+<p align="center">
+<img src="https://img.shields.io/badge/Portfolio-Beca-9B7BE3?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=5D37AF&color=B8A6E8">
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</p>
+
+<p align="center">
+    🌐 <a href="https://becsnr.github.io/portfolio/index.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
+    &nbsp;|&nbsp;
+    📫 <a href="mailto:becsnr@gmail.com?subject=Contato pelo portfólio">Contato</a>
+</p>
+
+---
+
+## 🎯 Seções
+
+### 🏠 Home
+- Apresentação com animações
+- Breve descrição sobre mim
+- Botões para navegar pelo site
+- Links para redes sociais
+
+### 👤 Sobre
+- Um pouco sobre mim
+- Tecnologias que utilizo
+- Ferramentas e habilidades
+- Minha trajetória de aprendizado
+
+### 💻 Projetos
+- Galeria com os principais projetos
+- Cards com:
+  - Imagens dos projetos
+  - Descrição
+  - Tecnologias utilizadas
+  - Links para o repositório e demonstração online
+
+### 📬 Contato
+- Formulário de contato integrado ao EmailJS
+- Links para minhas redes sociais
+- Informações para contato
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Tecnologia</th>
+      <th>Utilização</th>
+    </tr>
+    <tr>
+      <td>HTML5</td>
+      <td>Estrutura semântica da página</td>
+    </tr>
+    <tr>
+      <td>CSS3</td>
+      <td>Estilização, responsividade e animações</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Interações e funcionalidades dinâmicas</td>
+    </tr>
+    <tr>
+      <td>Font Awesome</td>
+      <td>Ícones da interface</td>
+    </tr>
+    <tr>
+      <td>Google Fonts</td>
+      <td>Tipografia personalizada</td>
+    </tr>
+  </table>
+</div>
+
+<!--
+  | Tecnologia | Utilização |
+|------------|------------|
+| HTML5 | Estrutura semântica da página |
+| CSS3 | Estilização, responsividade e animações |
+| JavaScript | Interações e funcionalidades dinâmicas |
+| Font Awesome | Ícones da interface |
+| Google Fonts | Tipografia personalizada |
+--!>
