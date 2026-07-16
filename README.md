@@ -77,6 +77,18 @@
 
 ---
 
+## 🚀 Como Executar
+
+1. Clone o repositório
+   ```bash
+   git clone https://github.com/becsnr/portfolio.git
+   cd Portfolio
+   ```
+
+2. Abra o arquivo `index.html` no navegador ou utilize a extensão `Live Server` do VS Code.
+   
+---
+
 ## 🤝 Contato
 
 <div>
