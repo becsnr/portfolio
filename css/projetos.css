@@ -136,7 +136,8 @@
     font-size: 1.1rem;
 }
 
-@media (max-width:768px) {
+/* MOBILE */
+@media (max-width:670px) {
     #projetos h1 {
         font-size: 2.2rem;
     }
@@ -152,6 +153,13 @@
     }
 
     .thumb {
-        height: 120px;
+        height: 150px;
+    }
+}
+
+/* TABLET */
+@media (max-width: 990px) {
+    .container-projetos {
+        justify-content: center;
     }
 }
