@@ -262,52 +262,102 @@
     }
 }
 
-/* MOBILE */
-@media (max-width:768px) {
+/* TABLET */
+@media (max-width:940px) {
     #home {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        gap: 20px;
     }
 
     .home-texto {
-        width: 100%;
-        max-width: 500px;
-        text-align: center;
+        width: 45%;
     }
 
     .home-texto h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     .home-texto p {
         font-size: 1.5rem;
     }
 
-    /* BOTÕES */
+
+    .bolha-home {
+        width: 350px;
+        height: 350px;
+    }
+
+    .home-icon {
+        width: 400px;
+        height: 400px;
+    }
+
+    .home-icon img {
+        height: 350px;
+    } 
+
+    
+    .code {
+        top: 40px;
+        left: 30px;
+    }
+
+    .globe {
+        top: 60px;
+        right: 20px;
+    }
+
+    .braces {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .browser {
+        bottom: 50px;
+        right: 20px;
+    }
+}
+
+/* MOBILE */
+@media (max-width:768px) {
+    #home {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .home-texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-texto h1 {
+        font-size: 2.3rem;
+    }
+
+    .home-texto p {
+        font-size: 1.3rem;
+    }
+
+
     .home-botoes {
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    /* SOCIAL */
+
     .home-social {
         justify-content: center;
     }
 
-    /* ICON */
+    
     .home-icon {
-        position: relative;
+        width: 320px;
+        height: 340px;
 
-        width: 100%;
-        /* max-width: 420px; */
+        margin: 0 auto;
     }
 
     .bolha-home {
-        left: 50%;
-        transform: translateX(-50%); 
-
         width: 320px;
         height: 320px;
     }
@@ -316,27 +366,32 @@
         height: 330px;
     }
 
-    /* SIMBOLOS */
+    
     .tech {
-        width: 45px;
-        height: 50px;
+        width: 40px;
+        height: 45px;
+    }
+
+    .tech span {
+        font-size: 22px;
     }
 
     .code {
-        left: 30px;
-        top: 80px;
+        left: 0;
+        top: 40px;
     }
 
     .globe {
-        right: 20px;
+        right: 0;
     }
 
     .braces {
-        left: 20px;
-        bottom: 50px;
+        left: 10px;
+        bottom: 15px;
     }
 
     .browser {
-        right: 20px;
+        right: 0;
+        bottom: 25px;
     }
 }
